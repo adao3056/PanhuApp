@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EE03D61D0A67FF001D078A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE03D51D0A67FF001D078A /* main.m */; };
+		18EE03E11D0A67FF001D078A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE03E01D0A67FF001D078A /* Assets.xcassets */; };
+		18EE03E41D0A67FF001D078A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE03E21D0A67FF001D078A /* LaunchScreen.storyboard */; };
+		18EE04061D0A6B7B001D078A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE03ED1D0A6B7B001D078A /* AppDelegate.m */; };
+		18EE04081D0A6B8D001D078A /* PanHu_README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18EE04071D0A6B8D001D078A /* PanHu_README.txt */; };
+		18EE040F1D0A72BB001D078A /* PHYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE040E1D0A72BB001D078A /* PHYTabBarController.m */; };
+		18EE04121D0A72E9001D078A /* PHYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE04111D0A72E9001D078A /* PHYNavigationController.m */; };
+		18EE043A1D0A7F5A001D078A /* PHYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE04391D0A7F5A001D078A /* PHYHomeViewController.m */; };
+		18EE043D1D0A7F73001D078A /* PHYBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE043C1D0A7F73001D078A /* PHYBuyViewController.m */; };
+		18EE04401D0A7F8A001D078A /* PHYMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE043F1D0A7F8A001D078A /* PHYMessageViewController.m */; };
+		18EE04431D0A7F9D001D078A /* PHYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE04421D0A7F9D001D078A /* PHYMeViewController.m */; };
+		18EE044A1D0A9293001D078A /* PHYAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE04491D0A9293001D078A /* PHYAddViewController.m */; };
+		18EE044D1D0A9E52001D078A /* PHYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE044C1D0A9E52001D078A /* PHYConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EE03D11D0A67FF001D078A /* PanHuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanHuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE03D51D0A67FF001D078A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EE03E01D0A67FF001D078A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EE03E31D0A67FF001D078A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EE03E51D0A67FF001D078A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EE03EC1D0A6B7B001D078A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EE03ED1D0A6B7B001D078A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EE04071D0A6B8D001D078A /* PanHu_README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PanHu_README.txt; sourceTree = "<group>"; };
+		18EE04091D0A6DB5001D078A /* PHYDefineMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHYDefineMacro.h; sourceTree = "<group>"; };
+		18EE040D1D0A72BB001D078A /* PHYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYTabBarController.h; sourceTree = "<group>"; };
+		18EE040E1D0A72BB001D078A /* PHYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYTabBarController.m; sourceTree = "<group>"; };
+		18EE04101D0A72E9001D078A /* PHYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYNavigationController.h; sourceTree = "<group>"; };
+		18EE04111D0A72E9001D078A /* PHYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYNavigationController.m; sourceTree = "<group>"; };
+		18EE04381D0A7F5A001D078A /* PHYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYHomeViewController.h; sourceTree = "<group>"; };
+		18EE04391D0A7F5A001D078A /* PHYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYHomeViewController.m; sourceTree = "<group>"; };
+		18EE043B1D0A7F73001D078A /* PHYBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYBuyViewController.h; sourceTree = "<group>"; };
+		18EE043C1D0A7F73001D078A /* PHYBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYBuyViewController.m; sourceTree = "<group>"; };
+		18EE043E1D0A7F8A001D078A /* PHYMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYMessageViewController.h; sourceTree = "<group>"; };
+		18EE043F1D0A7F8A001D078A /* PHYMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYMessageViewController.m; sourceTree = "<group>"; };
+		18EE04411D0A7F9D001D078A /* PHYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYMeViewController.h; sourceTree = "<group>"; };
+		18EE04421D0A7F9D001D078A /* PHYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYMeViewController.m; sourceTree = "<group>"; };
+		18EE04481D0A9293001D078A /* PHYAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYAddViewController.h; sourceTree = "<group>"; };
+		18EE04491D0A9293001D078A /* PHYAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYAddViewController.m; sourceTree = "<group>"; };
+		18EE044B1D0A9E52001D078A /* PHYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHYConstants.h; sourceTree = "<group>"; };
+		18EE044C1D0A9E52001D078A /* PHYConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHYConstants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EE03CE1D0A67FF001D078A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EE03C81D0A67FF001D078A = {
+			isa = PBXGroup;
+			children = (
+				18EE03D31D0A67FF001D078A /* PanHuApp */,
+				18EE03D21D0A67FF001D078A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EE03D21D0A67FF001D078A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03D11D0A67FF001D078A /* PanHuApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EE03D31D0A67FF001D078A /* PanHuApp */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03EB1D0A6B7B001D078A /* APPDelegate */,
+				18EE03F81D0A6B7B001D078A /* Main */,
+				18EE03F31D0A6B7B001D078A /* HomePage */,
+				18EE03EE1D0A6B7B001D078A /* BuyPage */,
+				18EE04441D0A9229001D078A /* AddPage */,
+				18EE04001D0A6B7B001D078A /* MessagePage */,
+				18EE03FC1D0A6B7B001D078A /* MePage */,
+				18EE03F71D0A6B7B001D078A /* Library */,
+				18EE04041D0A6B7B001D078A /* TestData */,
+				18EE03F21D0A6B7B001D078A /* Constants */,
+				18EE04051D0A6B7B001D078A /* Utils */,
+				18EE03E01D0A67FF001D078A /* Assets.xcassets */,
+				18EE03E21D0A67FF001D078A /* LaunchScreen.storyboard */,
+				18EE03E51D0A67FF001D078A /* Info.plist */,
+				18EE04071D0A6B8D001D078A /* PanHu_README.txt */,
+				18EE03D41D0A67FF001D078A /* Supporting Files */,
+			);
+			path = PanHuApp;
+			sourceTree = "<group>";
+		};
+		18EE03D41D0A67FF001D078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03D51D0A67FF001D078A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18EE03EB1D0A6B7B001D078A /* APPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03EC1D0A6B7B001D078A /* AppDelegate.h */,
+				18EE03ED1D0A6B7B001D078A /* AppDelegate.m */,
+			);
+			path = APPDelegate;
+			sourceTree = "<group>";
+		};
+		18EE03EE1D0A6B7B001D078A /* BuyPage */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03EF1D0A6B7B001D078A /* Controller */,
+				18EE03F01D0A6B7B001D078A /* Model */,
+				18EE03F11D0A6B7B001D078A /* View */,
+			);
+			path = BuyPage;
+			sourceTree = "<group>";
+		};
+		18EE03EF1D0A6B7B001D078A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EE043B1D0A7F73001D078A /* PHYBuyViewController.h */,
+				18EE043C1D0A7F73001D078A /* PHYBuyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EE03F01D0A6B7B001D078A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EE03F11D0A6B7B001D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EE03F21D0A6B7B001D078A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				18EE04091D0A6DB5001D078A /* PHYDefineMacro.h */,
+				18EE044B1D0A9E52001D078A /* PHYConstants.h */,
+				18EE044C1D0A9E52001D078A /* PHYConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		18EE03F31D0A6B7B001D078A /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03F41D0A6B7B001D078A /* Controller */,
+				18EE03F51D0A6B7B001D078A /* Model */,
+				18EE03F61D0A6B7B001D078A /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		18EE03F41D0A6B7B001D078A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EE04381D0A7F5A001D078A /* PHYHomeViewController.h */,
+				18EE04391D0A7F5A001D078A /* PHYHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EE03F51D0A6B7B001D078A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EE03F61D0A6B7B001D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EE03F71D0A6B7B001D078A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		18EE03F81D0A6B7B001D078A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03F91D0A6B7B001D078A /* Controller */,
+				18EE03FA1D0A6B7B001D078A /* Model */,
+				18EE03FB1D0A6B7B001D078A /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18EE03F91D0A6B7B001D078A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EE040D1D0A72BB001D078A /* PHYTabBarController.h */,
+				18EE040E1D0A72BB001D078A /* PHYTabBarController.m */,
+				18EE04101D0A72E9001D078A /* PHYNavigationController.h */,
+				18EE04111D0A72E9001D078A /* PHYNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EE03FA1D0A6B7B001D078A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EE03FB1D0A6B7B001D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EE03FC1D0A6B7B001D078A /* MePage */ = {
+			isa = PBXGroup;
+			children = (
+				18EE03FD1D0A6B7B001D078A /* Controller */,
+				18EE03FE1D0A6B7B001D078A /* Model */,
+				18EE03FF1D0A6B7B001D078A /* View */,
+			);
+			path = MePage;
+			sourceTree = "<group>";
+		};
+		18EE03FD1D0A6B7B001D078A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EE04411D0A7F9D001D078A /* PHYMeViewController.h */,
+				18EE04421D0A7F9D001D078A /* PHYMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EE03FE1D0A6B7B001D078A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EE03FF1D0A6B7B001D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EE04001D0A6B7B001D078A /* MessagePage */ = {
+			isa = PBXGroup;
+			children = (
+				18EE04011D0A6B7B001D078A /* Controller */,
+				18EE04021D0A6B7B001D078A /* Model */,
+				18EE04031D0A6B7B001D078A /* View */,
+			);
+			path = MessagePage;
+			sourceTree = "<group>";
+		};
+		18EE04011D0A6B7B001D078A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EE043E1D0A7F8A001D078A /* PHYMessageViewController.h */,
+				18EE043F1D0A7F8A001D078A /* PHYMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EE04021D0A6B7B001D078A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EE04031D0A6B7B001D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EE04041D0A6B7B001D078A /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		18EE04051D0A6B7B001D078A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18EE04441D0A9229001D078A /* AddPage */ = {
+			isa = PBXGroup;
+			children = (
+				18EE04451D0A926D001D078A /* Controller */,
+				18EE04461D0A926D001D078A /* Model */,
+				18EE04471D0A926D001D078A /* View */,
+			);
+			path = AddPage;
+			sourceTree = "<group>";
+		};
+		18EE04451D0A926D001D078A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EE04481D0A9293001D078A /* PHYAddViewController.h */,
+				18EE04491D0A9293001D078A /* PHYAddViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EE04461D0A926D001D078A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EE04471D0A926D001D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EE03D01D0A67FF001D078A /* PanHuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE03E81D0A67FF001D078A /* Build configuration list for PBXNativeTarget "PanHuApp" */;
+			buildPhases = (
+				18EE03CD1D0A67FF001D078A /* Sources */,
+				18EE03CE1D0A67FF001D078A /* Frameworks */,
+				18EE03CF1D0A67FF001D078A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanHuApp;
+			productName = PanHuApp;
+			productReference = 18EE03D11D0A67FF001D078A /* PanHuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EE03C91D0A67FF001D078A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PHY;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "戴维营学习";
+				TargetAttributes = {
+					18EE03D01D0A67FF001D078A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 18EE03CC1D0A67FF001D078A /* Build configuration list for PBXProject "PanHuApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EE03C81D0A67FF001D078A;
+			productRefGroup = 18EE03D21D0A67FF001D078A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EE03D01D0A67FF001D078A /* PanHuApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EE03CF1D0A67FF001D078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE03E41D0A67FF001D078A /* LaunchScreen.storyboard in Resources */,
+				18EE03E11D0A67FF001D078A /* Assets.xcassets in Resources */,
+				18EE04081D0A6B8D001D078A /* PanHu_README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EE03CD1D0A67FF001D078A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE044A1D0A9293001D078A /* PHYAddViewController.m in Sources */,
+				18EE040F1D0A72BB001D078A /* PHYTabBarController.m in Sources */,
+				18EE04401D0A7F8A001D078A /* PHYMessageViewController.m in Sources */,
+				18EE04431D0A7F9D001D078A /* PHYMeViewController.m in Sources */,
+				18EE043A1D0A7F5A001D078A /* PHYHomeViewController.m in Sources */,
+				18EE044D1D0A9E52001D078A /* PHYConstants.m in Sources */,
+				18EE04121D0A72E9001D078A /* PHYNavigationController.m in Sources */,
+				18EE043D1D0A7F73001D078A /* PHYBuyViewController.m in Sources */,
+				18EE04061D0A6B7B001D078A /* AppDelegate.m in Sources */,
+				18EE03D61D0A67FF001D078A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EE03E21D0A67FF001D078A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EE03E31D0A67FF001D078A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EE03E61D0A67FF001D078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18EE03E71D0A67FF001D078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EE03E91D0A67FF001D078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanHuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.PanHuApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EE03EA1D0A67FF001D078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanHuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.PanHuApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EE03CC1D0A67FF001D078A /* Build configuration list for PBXProject "PanHuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE03E61D0A67FF001D078A /* Debug */,
+				18EE03E71D0A67FF001D078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE03E81D0A67FF001D078A /* Build configuration list for PBXNativeTarget "PanHuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE03E91D0A67FF001D078A /* Debug */,
+				18EE03EA1D0A67FF001D078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EE03C91D0A67FF001D078A /* Project object */;
+}
