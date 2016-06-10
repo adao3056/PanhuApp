@@ -82,6 +82,7 @@
 			children = (
 				18EE03EB1D0A6B7B001D078A /* APPDelegate */,
 				18EE03F81D0A6B7B001D078A /* Main */,
+				18EE044E1D0AB896001D078A /* Common */,
 				18EE03F31D0A6B7B001D078A /* HomePage */,
 				18EE03EE1D0A6B7B001D078A /* BuyPage */,
 				18EE04441D0A9229001D078A /* AddPage */,
@@ -342,6 +343,37 @@
 			sourceTree = "<group>";
 		};
 		18EE04471D0A926D001D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EE044E1D0AB896001D078A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18EE044F1D0AB896001D078A /* Controllers */,
+				18EE04501D0AB896001D078A /* Model */,
+				18EE04511D0AB896001D078A /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18EE044F1D0AB896001D078A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18EE04501D0AB896001D078A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EE04511D0AB896001D078A /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
